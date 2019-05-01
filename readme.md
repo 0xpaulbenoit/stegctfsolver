@@ -8,7 +8,7 @@ You can either download the dependencies yourself or use a premade docker contai
  1. Download https://github.com/DominicBreuker/stego-toolkit
  2. Run with `docker run -it --rm -v $(pwd)/data:/data dominicbreuker/stego-toolkit /bin/bash`
  3. Copy this repo into `data`, the folder shared with the container
- 4. Run `pip install -r requirements.txt` in the container
+ 4. Run `pip3 install -r requirements.txt` in the container
  5. Run `apt-get install xxd` in the container
  6. Drag the files you want to analyze into the `data` folder
  7. Run `python3 stegctfsolver.py <target file>`
