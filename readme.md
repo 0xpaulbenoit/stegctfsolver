@@ -5,13 +5,13 @@ Steganogrpahy challenges in Capture the Flag competitions are often unoriginal. 
 
 ## How to Run
 You can either download the dependencies yourself or use a premade docker container. I suggest using the docker container.
- - Download https://github.com/DominicBreuker/stego-toolkit
- - Run with `docker run -it --rm -v $(pwd)/data:/data dominicbreuker/stego-toolkit /bin/bash`
- - Copy this repo into `data`, the folder shared with the container
- - Run `pip install -r requirements.txt` in the container
- - Run `apt-get install xxd` in the container
- - Drag the files you want to analyze into the `data` folder
- - Run `python3 stegctfsolver.py <target file>`
+ 1. Download https://github.com/DominicBreuker/stego-toolkit
+ 2. Run with `docker run -it --rm -v $(pwd)/data:/data dominicbreuker/stego-toolkit /bin/bash`
+ 3. Copy this repo into `data`, the folder shared with the container
+ 4. Run `pip install -r requirements.txt` in the container
+ 5. Run `apt-get install xxd` in the container
+ 6. Drag the files you want to analyze into the `data` folder
+ 7. Run `python3 stegctfsolver.py <target file>`
  
 ## What it does
 It solves the following types of challenges:
@@ -25,9 +25,9 @@ It solves the following types of challenges:
  - Brute forces LSB Steg
 
 It also runs the following tools:
-|   Tool             |Command               |
+|  Tool  | Command |
 |----------------|--------------------------|
-| binwalk |`binwalk -e <target file>`  |
+| binwalk  | `binwalk -e <target file>`  |
 | foremost| `foremost <target file>` |
 | stegdetect| `stegdetect <target file>` |
 | stegoveritas.py| `stegoveritas.py <target file>` |
