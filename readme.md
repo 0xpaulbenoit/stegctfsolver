@@ -1,6 +1,6 @@
 # Steg CTF Solver
 
-Steganogrpahy challenges in Capture the Flag competitions are often unoriginal. Creators use the same techniques that they have seen in previous CTFs. It can take a lot of time for a competitor to go through the most common solving techniques manually, but with this tool you can do it in one command.
+Steganography challenges in Capture the Flag competitions are often unoriginal. Creators use the same techniques that they have seen in previous CTFs. It can take a lot of time for a competitor to go through the most common solving techniques manually, but with this tool you can do it in one command.
 
 
 ## How to Run
