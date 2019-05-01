@@ -1,0 +1,6 @@
+ExifRead==2.1.2
+gpsphoto==2.2.2
+piexif==1.1.2
+Pillow==6.0.0
+python-magic==0.4.15
+termcolor==1.1.0
