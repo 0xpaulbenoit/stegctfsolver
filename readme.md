@@ -25,6 +25,8 @@ It solves the following types of challenges:
  - Brute forces LSB Steg
 
 It also runs the following tools:
+
+
 |  Tool  | Command |
 |----------------|--------------------------|
 | binwalk  | `binwalk -e <target file>`  |
