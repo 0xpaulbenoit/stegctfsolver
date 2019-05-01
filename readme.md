@@ -20,6 +20,7 @@ It solves the following types of challenges:
  - Filecarving with binwalk and foremost
  - PNGs with the bytes reversed
  - PNGs with a corrupted or missing header
+ - Illegal chunks in PNGs
  - Extracts frames from GIFs
  - Makes multiple spectrograms from MP3 or WAV files
  - Brute forces LSB Steg
